@@ -8,55 +8,79 @@
   <title>Document</title>
   <style>
   .gray{
-    color: #585858 ;
-  }
-  
-  
-  body div {
-    margin: 70px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 100px;
-    line-height: 121px;
-    letter-spacing: -3px;
-  }
-  
-  .box{
-    
-  }
-  
-  .box>div{
-  
-    margin-left: 0px;
-    margin-right: 0px;
-    margin : -37px;
-  
-  }
-  
-  .black
-  {
-    color: #0F0F0F ;
-  }
+  color: #585858 ;
+}
+
+
+
+body div {
+  margin: 70px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 121px;
+  letter-spacing: -3px;
+  color: #C9C9C9;
+}
+
+ .box>div:nth-child(2){
+  color: #0F0F0F;
+  margin-left: 1060px;
+}
+.box>div:nth-child(5){
+  color: #0F0F0F;
+  margin-left: 1060px;
+}
+.box>div:nth-child(n+8):nth-child(-n+10){
+  color: #0F0F0F;
+  margin-left: 1060px;
+}
+
+.box>div{
+
+  margin-left: 0px;
+  margin-right: 0px;
+  margin : -37px;
+
+}
+
+.black
+{
+  color: #0F0F0F ;
+}
+
+
   
   </style>
+</head>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
 
   <div class="box">
-    <div class="gray">if you don't have ideas</div>
-    <div class="black">read.</div>
-    <div class="gray">if you have ideas</div>
-    <div class="gray">but can't articulate them</div>
-    <div class="black">write.</div>
-    <div class="gray">if you have ideas</div>
-    <div class="gray">and the clarity to execute</div>
-    <div class="black">build.</div>
-    <div class="black">expand.</div>
-    <div class="black">organize.</div>
-    <div class="gray">until your craziest</div>
-    <div class="gray">ideas become reality</div>
+    <div >if you don't have ideas</div>
+    <div >2read.</div>
+    <div >if you have ideas</div>
+    <div >but can't articulate them</div>
+    <div >5write.</div>
+    <div >if you have ideas</div>
+    <div >and the clarity to execute</div>
+    <div >8build.</div>
+    <div >9expand.</div>
+    <div >10organize.</div>
+    <div >until your craziest</div>
+    <div >ideas become reality</div>
   </div>
 
 </body>
