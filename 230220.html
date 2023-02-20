@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root">
+    <h1>'그린 컴퓨터 아트학원 3층 자판기'</h1>
+    <div>
+      <h2>밀키스</h2>
+      <p>900</p>
+    </div>
+    <div>
+      <h2>코카콜라</h2>
+      <p>2800</p>
+    </div>
+    <div>
+      <h2>강사님한테 조르기</h2>
+      <p>0</p>
+    </div>
+  </div>
+    <script>
+      var root = document.getElementById('root');
+      console.log("첫번째 :", root);
+      var milkis = root.children[1];
+      console.log("두번째 :", milkis);
+      var milkisprice = milkis.children[1].textContent;
+      console.log("세번째 :", milkisprice);
+      var numberChangeMilkisPrice = Number(milkisprice);
+      console.log("네번째:", numberChangeMilkisPrice);
+      console.log("다섯번째 :", typeof(numberChangeMilkisPrice));
+  </script>
+</body>
+</html>
